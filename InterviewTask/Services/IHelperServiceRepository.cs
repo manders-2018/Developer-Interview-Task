@@ -4,7 +4,7 @@ using InterviewTask.Models;
 
 namespace InterviewTask.Services
 {
-    interface IHelperServiceRepository
+    public interface IHelperServiceRepository
     {
         IEnumerable<HelperServiceModel> Get();
         HelperServiceModel Get(Guid id);
